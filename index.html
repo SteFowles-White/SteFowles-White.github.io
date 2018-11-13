@@ -7,22 +7,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" type="text/css" href="Responsive_CSS.css">
+        <link rel="stylesheet" type="text/css" href="Style_sheet.css">
+
     </head>
 
     <body>
 
 
-        <nav>
+        <nav class="col-s-12 col-s2-12 col-t-12 col-12">
             <ul>
                 <li><a href="#About_Me" accesskey="a">About Me</a></li>
                 <li><a href="#Skill_Sets" accesskey="b">Skill Sets</a></li>
                 <li><a href="#Portfolio" accesskey="c">Portfolio</a></li>
-                <li><a href="#Contact_Me" accesskey="l">Contact Me</a></li>
+                <li><a href="#Contact_Me" accesskey="l" class="right">Contact Me</a></li>
             </ul>
 
         </nav>
 
-        <div>
+        <div class="col-s-12 col-s2-12 col-t-12 col-12">
             <!-- this is where the main image will be placed
 			<img>
 			 -->
@@ -30,12 +33,12 @@
             <h2> Web Developer </h2>
             <hr>
         </div>
-	    
-	<article>
-		<h3 id="About_Me"> About Me </h3>
-		<p></p>
-		
-	</article>
+
+        <article class="col-s-12 col-s2-12 col-t-12 col-12">
+            <h3 id="About_Me"> About Me </h3>
+            <p></p>
+
+        </article>
         <section>
             <h2 id="Skill_Sets">Skill Sets</h2>
             <div>
@@ -55,43 +58,38 @@
                 <img href="#">
             </div>
         </section>
-	
-	<section>
-        	<h3 id="Portfolio">Portfolio</h3>
 
-        	<a href="">
-           	 <img src="" alt="">
-       		 </a>
-        	<a href="">
-          	  <img src="" alt="">
-       		 </a>
-       		<a href="">
-          	  <img src="" alt="">
-       		 </a>
-	</section>
+        <section>
+            <h3 id="Portfolio">Portfolio</h3>
+
+            <a href="">
+                <img src="" alt="">
+            </a>
+            <a href="">
+                <img src="" alt="">
+            </a>
+            <a href="">
+                <img src="" alt="">
+            </a>
+        </section>
 
         <h3 id="Contact_Me"> Contact Me</h3>
 
         <form>
-	    <label for="firstName"> First Name: <br>
+            <label for="firstName"> First Name: <br>
             <input type="text" name="first_Name" id="firstName"><br>
 		    
 	    <label for="lastName">Last Name: </label> <br>
             <input type="text" name="last_Name" id="lastName"><br>
-		    
-	    <label for="contactNumber">Contact Number</label> <br>
-            <input type="number" name="contactNumber" id="contactNumber"><br> 
-		    
-	    <label for="email>Email Address</label> <br>
-            <input type="email" name="emailaddress" id="email"><br> 
+
+            <label for="contactNumber">Contact Number</label> <br>
+            <input type="number" name="contactNumber" id="contactNumber"><br>
+
+            <label for="email>Email Address</label> <br>
+            <input type=" email " name="emailaddress " id="email "><br> 
 							      
-	    <lable for="extraComment">Extra Information on Project </label><br>
-            <input type="text" name="Comment" id="extraComment"><br><br>
-            <input type="button" onclick="alert('Thank you for contact me and I will be in touch soon to discuss the request in more detail')" value="Submit">
+	    <lable for="extraComment ">Extra Information on Project </label><br>
+            <input type="text " name="Comment " id="extraComment "><br><br>
+            <input type="button " onclick="alert( 'Thank you for contact me and I will be in touch soon to discuss the request in more detail') " value="Submit ">
 
         </form>
-
-
-    </body>
-
-    </html>

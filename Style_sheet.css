@@ -1,40 +1,65 @@
-        /********************************
+/********************************
 *********************************
      THIS IS THE NAVIAGATION
              SECTION
 **********************************
 **********************************/
-        
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            margin-bottom: 0;
-            padding-top: 5px;
-            padding-left: 0px;
-            opacity: 1;
-        }
-        
-        li {
-            display: inline;
-        }
-        
-        nav ul li a {
-            display: inline-block;
-            padding: 15px;
-            color: black;
-            text-decoration: none;
-        }
-        
-        .right {
-            float: right;
-        }
-        /********************************
+
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    opacity: 1;
+}
+
+li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.right {
+    float: right;
+    padding-right: 30px;
+}
+
+
+/********************************
 *********************************
         Main Background
 **********************************
 **********************************/
-        /*
-        .background {
-            width: 100%;
-            height: 900px;
-        }
+
+.background {
+    height: 700px;
+    background-position: center;
+    background-image: url("Main_Picture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -60px;
+}
+
+.navText {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 300%;
+    color: whitesmoke;
+}
+
+.navText2 {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 200%;
+    color: whitesmoke;
+}

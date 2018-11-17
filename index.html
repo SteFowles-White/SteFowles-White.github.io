@@ -73,7 +73,7 @@
 
         <h3 id="Contact_Me"> Contact Me</h3>
 
-        <form>
+        <form action="/action_page.php">
             <label for="firstName"> First Name: <br>
             <input type="text" name="first_Name" id="firstName"><br>
 		    
@@ -83,11 +83,18 @@
             <label for="contactNumber">Contact Number</label> <br>
             <input type="number" name="contactNumber" id="contactNumber"><br>
 
-            <label for="email>Email Address</label> <br>
-            <input type=" email " name="emailaddress " id="email "><br> 
-							      
-	    <lable for="extraComment ">Extra Information on Project </label><br>
-            <input type="text " name="Comment " id="extraComment "><br><br>
-            <input type="button " onclick="alert( 'Thank you for contact me and I will be in touch soon to discuss the request in more detail') " value="Submit ">
+            <label for="email">Email Address</label> <br>
+            <input type=" email " name="emailaddress " id="email "><br>
 
-        </form>
+            <lable for="extraComment ">Extra Information on Project </label><br>
+                <input type="text " name="Comment " id="extraComment "><br><br>
+
+                <form action="index.php" method="post" enctype="multipart/form-date">
+                    Extra Infomration / Wire-frame:
+                    <input type="file" name="file1" id="fileToUpload" />
+                    <input type="submit" value="Send" name="Submit" />
+
+                </form>
+
+
+    </body>

@@ -1,6 +1,15 @@
 <DOCTYPE html>
     <html lang="eng">
 
+
+    <!-- FUTURE NOTES/Plans
+    1. Need to intall Logo
+    2. Need to get theme like 21 option
+    3. Make Nav go to a 3 line image
+    4. Make Div.right disparea on screen relouion < 750
+    
+    -->
+
     <head>
 
         <title>Stephen Fowles-White </title>
@@ -20,60 +29,61 @@
                 <li><a href="#About_Me" accesskey="a">About Me</a></li>
                 <li><a href="#Skill_Sets" accesskey="b">Skill Sets</a></li>
                 <li><a href="#Portfolio" accesskey="c">Portfolio</a></li>
-                <li><a href="#Contact_Me" accesskey="l" class="right">Contact Me</a></li>
+                <li><a href="#Contact_Me" accesskey="l">Contact Me</a></li>
             </ul>
         </nav>
+        <br>
+        <hr>
 
         <div class="background">
-            <!--
-            <img class="background" src="Main_Picture.jpg">
--->
-            <h1 class="navText">Stephen Fowles-White</h1>
-            <h2 class="navText2"> Web Developer </h2>
+            <h1 class="navText">Freelance Web Developer Based In West Yorkshire</h1>
+            <h2 class="navText2"> Experience Developing Customer Made Websites</h2>
         </div>
 
-        <article class="col-s-12 col-s2-12 col-t-12 col-12">
-            <h3 id="About_Me"> About Me </h3>
-            <p></p>
+        <section class="main">
+            <div class="left">
+                <h3>Fully Responsive Web Design, Customer Deisgned To Your Needs</h3>
 
-        </article>
-        <section>
-            <h2 id="Skill_Sets">Skill Sets</h2>
-            <div>
-                <h3>HTML</h3>
-                <img href="#">
             </div>
-            <div>
-                <h3>CSS - Responsive Web Designs</h3>
-                <img href="#">
+            <div class="right">
+                <div class="rightImage"></div>
+                <h3><a href="#Portfolio" accesskey="c">See Portfolio</a></h3>
             </div>
-            <div>
-                <h3>JavaScript</h3>
-                <img href="#">
-            </div>
-            <div>
-                <h3>JQuery</h3>
-                <img href="#">
-            </div>
+
+
         </section>
 
-        <section>
-            <h3 id="Portfolio">Portfolio</h3>
 
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <a href="">
-                <img src="" alt="">
-            </a>
+        <section class="maincard">
+            <div class="card">
+                <img href="#">
+                <h3>Website Design</h3>
+                <p>My approach is website desiin is to create a website that reflects a companies brad and ensure ease of use for your cusotmers.
+                </p>
+
+            </div>
+            <div class="card">
+                <img href="#">
+                <h3>Custom Website Design</h3>
+                <p>Each website coded and developed using a variety of platforms such as wordpress and bootsrap or custom coded web design for quicker response times.
+                </p>
+            </div>
+
+            <div class="card">
+                <div>
+                    <img href="#">
+                    <h3>Responsive Website Design</h3>
+                    <p> Websites designed and developed with a responsive layout, all with the idea to ensure companies services can be viewed on all device sizes
+                    </p>
+                </div>
+
         </section>
+
+
 
         <h3 id="Contact_Me"> Contact Me</h3>
 
-        <form action="/action_page.php">
+        <form action="/action_page.php" method="post" enctype="multipart/form-date">
             <label for="firstName"> First Name: <br>
             <input type="text" name="first_Name" id="firstName"><br>
 		    
@@ -87,14 +97,12 @@
             <input type=" email " name="emailaddress " id="email "><br>
 
             <lable for="extraComment ">Extra Information on Project </label><br>
-                <input type="text " name="Comment " id="extraComment "><br><br>
 
-                <form action="index.php" method="post" enctype="multipart/form-date">
-                    Extra Infomration / Wire-frame:
-                    <input type="file" name="file1" id="fileToUpload" />
-                    <input type="submit" value="Send" name="Submit" />
+                <input type="text " name="Comment " id="extraComment "><br><br> Extra Infomration / Wire-frame:
+                <input type="file" name="file1" id="fileToUpload" /><br>
 
-                </form>
+                <input type="submit" value="Send" name="Submit" />
+        </form>
 
 
     </body>

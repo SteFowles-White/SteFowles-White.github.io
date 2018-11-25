@@ -170,7 +170,7 @@ footer img {
 }
 
 footer nav {
-    width: 400px;
+    width: 375px;
     margin-right: auto;
     margin-left: auto;
     background-color: black;
@@ -197,4 +197,35 @@ footer nav ul li a {
     color: white;
     text-decoration: none;
     float: Left;
+}
+
+
+/***************************
+****************************
+
+        SKILL SETS 
+
+****************************
+****************************/
+
+.Tab {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 170px;
+    background-color: aquamarine;
+    margin-bottom: 5px;
+}
+
+.skillSetsLeft {
+    float: left;
+    width: 30%;
+    border-right: 2px solid blue;
+    height: 170px;
+}
+
+.tab p {
+    float: left;
+    width: 69%;
+    font-size: 18px;
 }
